@@ -1,0 +1,85 @@
+.nav__color {
+    background-color: #000000;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 70px;
+}
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18.6px;
+}
+.nav__mid {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left:11%;
+}
+.nav__end {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.nav__buttons {
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 42px;
+    padding: 5px;
+    background: none;
+    border-radius: 25px;
+}
+.nav__icon {
+    color: #717171;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 6px 0 12px;
+}
+.nav__reserve {
+    width: 850px;
+    height: 66px;
+    margin: 4px auto;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+}
+.nav__form {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding-top: 9px;
+    padding-right: 8px;
+}
+.input--lable {
+    font-size: 13px;
+    font-weight: 500;
+}
+.form__text {
+    margin-left: 26px;
+}
+.input__text {
+    width: 190px;
+    height: 25px;
+}
+.input__number {
+    width: 60px;
+}
+.input__break {
+    border-left: 1px #dfdfdf solid;
+    padding-left: 25px;
+}
+.form__button {
+    width: 63px;
+    height: 48px;
+    background-color: #FF385C;
+    border-radius: 50%;
+}
+.search__icon {
+    margin: auto;
+    color: #FFFFFF;
+}
