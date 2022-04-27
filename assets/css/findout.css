@@ -1,0 +1,56 @@
+.findout {
+    margin-top: 100px;
+}
+.findout__tittle {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: 400;
+}
+.findout__cards {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.findout__background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 49vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 68px;
+}
+.findout__first {
+    background-image: url("../images/Atividades\ 1.webp");
+    border-radius: 13px;
+}
+.findout__second {
+    background-image: url("../images/Atividades\ 2.webp");
+    border-radius: 13px;
+}
+.findout__text {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 450px;
+}
+.findout__button {
+    height: 50px;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1000px) {
+    .findout__background {
+        height: 500px;
+        width: 380px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .findout__cards {
+        flex-wrap: wrap;
+    }
+}

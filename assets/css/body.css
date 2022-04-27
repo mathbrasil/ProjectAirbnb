@@ -7,11 +7,6 @@
     border: none;
     font-family: 'Roboto', sans-serif;
 }
-body {
-    /*max-width: 85.1%;*/
-    /*margin:auto;*/
-    /*background-color: black;*/
-}
 .page__limit{
     max-width: 85.1%;
     margin: auto;
