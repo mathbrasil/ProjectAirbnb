@@ -39,6 +39,16 @@
     font-size: 19px;
     font-weight: 600;
     -webkit-background-clip: text;
+    background-image: linear-gradient(163deg, #ff02a2 0%, #610088 135.12%);
+    -webkit-text-fill-color: transparent;
+}
+
+.flexible__button__background:hover {
+    background-color: #e2e2e2;
+}
+
+.flexible__button:hover {
+    -webkit-background-clip: text;
     background-image: linear-gradient(163deg, #610088 0%, #ff02a2 135.12%);
     -webkit-text-fill-color: transparent;
 }

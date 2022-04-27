@@ -55,3 +55,9 @@
 .bottom__coin {
     margin-right: 40px;
 }
+.footer__link:hover > a{
+    text-decoration: underline;
+}
+.bottom__link:hover > a{
+    text-decoration: underline;
+}

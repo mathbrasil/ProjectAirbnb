@@ -30,6 +30,10 @@
     border-radius: 8px;
     margin-top: 18px;
 }
+.help__button:hover {
+    color: #FF385C;
+    background-color: #FFFFFF;
+}
 @media screen and (max-width: 578px) {
     .help {
         height: 255px;

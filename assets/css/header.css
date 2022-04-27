@@ -101,14 +101,20 @@
     margin: auto;
     color: #FFFFFF;
 }
+
 #mobile__menu {
     display: none;
+}
+
+.nav__buttons:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 785px) {
     #mobile__menu {
         display: block;
     }
+
     .mobile__menu {
         background-color: #000000;
     }

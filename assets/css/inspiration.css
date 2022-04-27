@@ -1,12 +1,14 @@
 .inspiration {
     margin-top: 100px;
 }
+
 .inspiration__tittle {
     display: flex;
     justify-content: center;
     font-size: 42px;
     font-weight: 400;
 }
+
 .inspiration__list {
     display: flex;
     justify-content: center;
@@ -14,27 +16,35 @@
     gap: 30px;
     margin-top: 48px;
 }
+
 .inspiration__item {
     width: 280px;
     height: 360px;
     border-radius: 13px;
     overflow: hidden;
 }
+
 .inspiration__one {
     background-color: #D93B30;
 }
+
 .inspiration__two {
     background-color: #DE3151;
 }
+
 .inspiration__three {
     background-color: #CC2D4A
 }
+
 .inspiration__four {
     background-color: #BC1A6E
 }
+
 .inspiration__image {
     width: 100%;
+    transition-duration: 0.3s;
 }
+
 .inspiration__text {
     display: flex;
     flex-direction: column;
@@ -42,13 +52,36 @@
     margin-top: 20px;
     margin-left: 19px;
 }
+
 .inspiration__city {
     color: #FFFFFF;
     font-size: 34px;
     font-weight: 500;
 }
+
 .inspiration__city__distance {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
+}
+
+.inspiration__one:hover {
+    background-color: #d6544b;
+}
+
+.inspiration__two:hover {
+    background-color: #e0536d;
+}
+
+.inspiration__three:hover {
+    background-color: #cc4e65
+}
+
+.inspiration__four:hover {
+    background-color: #be3b7f
+}
+
+.inspiration__image:hover {
+    width: 105%;
+    transition-duration: 0.3s;
 }
